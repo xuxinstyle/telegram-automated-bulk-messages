@@ -26,7 +26,9 @@ time.sleep(3)
 while True:
 
       print("open telegram ....")
-      os.startfile("D:\soft\Telegram Desktop\Telegram.exe")
+      dirt = excel_data['Message'][1]
+      print (dirt)
+      os.startfile(dirt)
       print("open telegram start!")
       count = 0
       for column in excel_data['Username'].tolist():
